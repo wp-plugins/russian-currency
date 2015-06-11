@@ -102,7 +102,7 @@ class Russian_Currency_Widget extends WP_Widget {
 		
 		echo '<p>';
 		echo '<label for="' . $this->get_field_id('title') . '">' .
-			'Заголовок' . '</label>';
+			'Заголовок:' . '</label>';
 		echo '<input class="widefat" id="' . $this->get_field_id('title') .
 			'" name="' . $this->get_field_name( 'title' ) . '" type="text" ' .
 			'value="' . __(esc_attr($l_instance['title']),'russian-currency') . '" />';
@@ -125,7 +125,7 @@ class Russian_Currency_Widget extends WP_Widget {
 				
 		echo '<p>';
 		echo '<label for="' . $this->get_field_id('cash-time') . '">' .
-			'Кэширование данных (в минутах)' . '</label>';
+			'Кэширование данных (в минутах):' . '</label>';
 		echo '<input class="widefat" id="' . $this->get_field_id('cash-time') .
 			'" name="' . $this->get_field_name('cash-time') . '" type="text" ' .
 			'value="' . esc_attr($l_instance['cash-time']) . '" />';
