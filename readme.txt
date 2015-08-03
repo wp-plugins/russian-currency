@@ -3,7 +3,7 @@ Contributors: Flector
 Donate link: http://goo.gl/uhnS7k
 Tags: currency, EUR, exchange, rouble, RUB, USD, CBR, currency, widget
 Requires at least: 3.3
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: trunk
 
 Виджет с официальными и биржевыми курсами валют.
